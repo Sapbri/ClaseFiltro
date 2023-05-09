@@ -1,0 +1,25 @@
+{
+  "user": [
+    {
+      "id": "20",
+      "first_name": "sadas",
+      "last_name": "asddasds",
+      "age": "20",
+      "address": "calle 1"
+    },
+    {
+      "id": "huIW5c8",
+      "first_name": "Miguel",
+      "last_name": "lin",
+      "age": "24",
+      "address": "calle 1"
+    },
+    {
+      "id": "0Re8Tgl",
+      "first_name": "",
+      "last_name": "",
+      "age": "",
+      "address": ""
+    }
+  ]
+}

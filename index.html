@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <!-- <button id="btn">Traer Datos</button> -->
+    <form id="myForm">
+        <input type="number" name="id" placeholder="Ingrese la ID"><br>
+        <input type="text" name="first_name" placeholder="Ingrese el nombre"><br>
+        <input type="text" name="last_name" placeholder="Ingrese su apellido"><br>
+        <input type="number" name="age" placeholder="Ingrese su edad"><br>
+        <input type="text" name="address" placeholder="Ingrese la direccion"><br>
+        <input type="submit" data-accion="enviar" value="Enviar"><br>
+        <input type="submit" data-accion="listar" value="Mostrar"><br>
+    </form>
+    <table class="table" >
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Appelido</th>
+            <th scope="col">Edad</th>
+            <th scope="col">Direccion</th>
+        </tr>
+        </thead>
+        <tbody id="myData"></tbody>
+      </table>
+</body>
+</html>
